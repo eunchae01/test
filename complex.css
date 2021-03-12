@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-weight: bold;
+	position: fixed;
+	width: 100%;
+	box-shadow: grey 0 3px 5px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: lightgray;
+}
+
+.header {
+	padding: 30px;
+	text-align: center;
+	background: lightgray;
+}
+
+/* 타이틀 */
+.header h1 {
+	padding-top: 35px;
+	font-size: 80px;
+}
+
+form{
+	text-align: center;
+	background-color: lightgray;
+}
+
+input[type=text] {
+	width: 40%;
+	padding: 15px 20px;
+	margin: 60px;
+	box-sizing: border-box;
+	border: none;
+	background-color: #008CBA;
+	color: white;
+	border-radius: 25px;
+}

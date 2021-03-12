@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-weight: bold;
+	position: fixed;
+	width: 100%;
+	box-shadow: grey 0 3px 5px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 50px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: lightgray;
+}
+
+.header {
+	padding: 30px;
+	text-align: center;
+	background: lightgray;
+}
+
+/* 타이틀 */
+.header h1 {
+	padding-top: 35px;
+	font-size: 80px;
+}
+
+form{
+	text-align: center;
+	background-color: lightgray;
+}
+
+/* 버튼 */
+.minimenu{
+	padding-left: 73%;
+	padding-bottom: 30px;
+	background-color: lightgray;
+}
+
+.id{
+	width: 140px;
+	height: 40px;
+	background-color: #008CBA;
+	border-radius: 15px;
+	color: white;
+	border: none;
+}
+
+select{
+	width: 140px;
+	height: 40px;
+}
+
+.board{
+	background-color: lightgray;
+}
+
+img{
+	display: block;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+/* 검색창 */
+form{
+	text-align: center;
+	background-color: lightgray;
+	padding-bottom: 25px;
+	position: relative;
+	margin: auto;
+	width: 100%;
+}
+
+input[type=text] {
+	width: 250px;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	border: none;
+	background-color: white;
+	color: dimgray;
+	border-radius: 25px;
+}
+
+.search{
+	width: 70px;
+	height: 45px;
+	border-radius: 25px;
+	border: none;
+	background-color: #008CBA;
+	color: white;
+}
