@@ -77,7 +77,7 @@ select{
 	background-color: lightgray;
 }
 
-img{
+.bdimg{
 	display: block;
 	margin: auto;
 	padding-bottom: 30px;
@@ -101,6 +101,10 @@ input[type=text] {
 	background-color: white;
 	color: dimgray;
 	border-radius: 25px;
+}
+
+input:focus {
+	outline:none;
 }
 
 .search{

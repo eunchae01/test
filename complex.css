@@ -47,18 +47,43 @@ li a:hover:not(.active) {
 	font-size: 80px;
 }
 
-form{
-	text-align: center;
+/* 버튼 */
+.timebt{
+	background-color: lightgray;
+	padding-left: 5%;
+	padding-top: 1%;
+}
+
+button{
+	width: 140px;
+	height: 40px;
+	border-radius: 10px;
+	color: white;
+	border: none;
+}
+
+button:focus{
+	border: none;
+    outline:none
+}
+
+#bfo{
+	background-color: rgb(20, 78, 136);
+}
+
+#aft{
+	background-color: #008CBA;
+}
+
+.champion{
+	padding-left: 5%;
+	padding-bottom: 1%;
 	background-color: lightgray;
 }
 
-input[type=text] {
-	width: 40%;
-	padding: 15px 20px;
-	margin: 60px;
-	box-sizing: border-box;
-	border: none;
-	background-color: #008CBA;
-	color: white;
-	border-radius: 25px;
+p{
+	background-color: cornsilk;
+	width: 45%;
+	height: 450px;
+	border-radius: 10px;
 }

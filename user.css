@@ -68,6 +68,10 @@ input[type=text] {
 	border-radius: 25px;
 }
 
+input:focus {
+	outline:none;
+}
+
 .search{
 	width: 70px;
 	height: 45px;
