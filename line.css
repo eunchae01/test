@@ -97,3 +97,15 @@ button:focus{
 	width: 250px;
 	background-color: #144e88;
 }
+
+.champion{
+	padding-left: 5%;
+	background-color: lightgray;
+}
+
+p{
+	background-color: white;
+	width: 85%;
+	height: 200px;
+	border-radius: 10px;
+}
