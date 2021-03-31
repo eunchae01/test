@@ -79,3 +79,11 @@ input:focus {
 	background-color: #008CBA;
 	color: white;
 }
+
+footer{
+	font-size: 5px;
+	background-color: lightgray;
+	padding-top: 27%;
+	margin:auto; 
+	text-align:center;
+}

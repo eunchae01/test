@@ -16,6 +16,7 @@ ul {
 
 li {
 	float: left;
+	
 }
 
 li a {
@@ -44,45 +45,29 @@ li a:hover:not(.active) {
 /* 타이틀 */
 .header h1 {
 	padding-top: 35px;
+	padding-bottom: 30px;
 	font-size: 80px;
-}
-
-/* 출력창 */
-.container{
-	background-color: lightgray;
-	width: 98%;
-	height: 500px;
-	padding-left: 2%;
-	padding-top: 2%;
-}
-
-.champion{
-	background-color: white;
-	width: 45%;
-	height: 450px;
-	float: left;
-	margin-left: 2%;
 }
 
 /* 검색창 */
 form{
-	background-color: lightgray;
-	width: 50%;
-	height: 50px;
-	float: left;
 	text-align: center;
-	margin-left: 2%;
+	background-color: lightgray;
+	padding-bottom: 25px;
+	position: relative;
+	margin: auto;
+	width: 100%;
 }
 
 input[type=text] {
-	width: 350px;
+	width: 550px;
 	padding: 15px 20px;
 	box-sizing: border-box;
 	border: none;
 	background-color: white;
 	color: dimgray;
 	border-radius: 25px;
-} 
+}
 
 input:focus {
 	outline:none;
@@ -95,4 +80,37 @@ input:focus {
 	border: none;
 	background-color: #008CBA;
 	color: white;
+}
+
+.user{
+	padding-top: 1%;
+	background-color: lightgray;
+}
+
+.id{
+	float: left;
+	padding-left: 7%;
+	background-color: lightgray;
+	width: 20%;
+	height: 450px;
+}
+
+
+#info{
+	background-color: white;
+	width: 80%;
+	height: 45%;
+	border-radius: 5%;
+}
+
+.play{
+	width: 100%;
+	background-color: lightgray;
+	height: 450px;
+}
+
+#fight{
+	background-color: white;
+	width: 85%;
+	height: 90%;
 }

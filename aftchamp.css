@@ -96,3 +96,30 @@ input:focus {
 	background-color: #008CBA;
 	color: white;
 }
+
+/* 사진이랑 승률 박스 */
+.minicon{
+	width: 50%;
+	background-color: lightgray;
+	float: left;
+	height: 400px;
+	margin-left: 2%;
+}
+
+.photo{
+	width: 25%;
+	height: 40%;
+	margin-top: 2%;
+	margin-left: 37%;
+	background-color: white;
+	text-align: center;
+}
+
+.result{
+	width: 70%;
+	height: 50.5%;
+	margin-top: 3%;
+	margin-left: 15%;
+	background-color: white;
+	text-align: center;
+}
