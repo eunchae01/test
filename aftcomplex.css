@@ -75,7 +75,6 @@ button:focus{
 	background-color: rgb(20, 78, 136);
 }
 
-/* 출력창 */
 .container{
 	background-color: lightgray;
 	width: 100%;
@@ -101,17 +100,26 @@ button:focus{
 .photo{
 	background-color: white;
 	width: 30%;
-	height: 175px;
+	height: 200px;
 	float: left;
-	margin-top: 2.5%;
-	margin-left: 2.5%;
+	margin-top: 15%;
+	margin-left: 2%;
 }
 
 .result{
 	background-color: white;
-	height: 190px;
-	width: 95%;
+	height: 300px;
+	width: 40%;
 	float: left;
-	margin-top: 10px;
-	margin-left: 2.5%;
+	margin-top: 9%;
+	margin-left: 3%;
+}
+
+.num{
+	background-color: white;
+	margin-top: 9%;
+	margin-left: 3%;
+	width: 20%;
+	height: 300px;
+	float: left;
 }
