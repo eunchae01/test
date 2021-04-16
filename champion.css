@@ -59,9 +59,10 @@ li a:hover:not(.active) {
 .champion{
 	background-color: white;
 	width: 45%;
-	height: 450px;
+	height: 90vh;
 	float: left;
 	margin-left: 2%;
+	overflow: auto;
 }
 
 /* 검색창 */
